@@ -70,7 +70,7 @@ class Task(unittest.TestCase):
         
         print("Step 10: Verifying if the Logical Volume is present")
         self.assertRegex(self.output,cli.lvname)
-        print("---------------Success---------------")
+        print("---------------Success---OK------------")
         
         print("Step 11: Verifying if the Filesystem is mounted")
         self.assertRegex(self.outmnt,self.fspath)
