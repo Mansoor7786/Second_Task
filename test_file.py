@@ -74,9 +74,9 @@ class Task(unittest.TestCase):
         
         print("Step 11: Verifying if the Filesystem is mounted")
         self.assertRegex(self.outmnt,self.fspath)
-        print("---------------Success---------------")
+        print("---------------Success--OK-------------")
         
         print("Step 12: Verifying whether IO is successful")
         self.assertRegex(self.fio_fun,"Run status")
-        print("---------------Success---------------")
+        print("-------------Success---OK------------")
 
