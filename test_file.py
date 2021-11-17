@@ -78,5 +78,5 @@ class Task(unittest.TestCase):
         
         print("Step 12: Verifying whether IO is successful")
         self.assertRegex(self.fio_fun,"Run status")
-        print("---------------Success---------------")
+        print("-------------Success---OK------------")
 
